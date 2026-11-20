@@ -22,7 +22,7 @@ Tick these off as you go, and commit after each one.
       Hint: Fine-tuning: Use the Hugging Face Trainer to fine-tune the GPT-2 model.
 - [x] **4. Implement an inference function to classify new feedback.**  
       Hint: Inference Pipeline: Implement the classification logic for new feedback comments.
-- [ ] **5. Build a simple Streamlit app to input comments and show classifications.**  
+- [x] **5. Build a simple Streamlit app to input comments and show classifications.**  
       Hint: Application Integration: Build a simple Streamlit app to input comments and display classifications.
 
 ## Run it
