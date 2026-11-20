@@ -16,7 +16,7 @@ Tick these off as you go, and commit after each one.
 
 - [x] **1. Define 3-5 feedback categories and create a small dataset of example comments with labels.**  
       Hint: Dataset Creation: Define categories and create labeled examples for fine-tuning.
-- [ ] **2. Extend GPT-2 tokenizer and model with new category tokens.**  
+- [x] **2. Extend GPT-2 tokenizer and model with new category tokens.**  
       Hint: Tokenizer/Model Extension: Extend the GPT-2 tokenizer and model with new category tokens.
 - [ ] **3. Fine-tune the model using the Hugging Face Trainer.**  
       Hint: Fine-tuning: Use the Hugging Face Trainer to fine-tune the GPT-2 model.
