@@ -7,6 +7,10 @@ __pycache__/
 .venv/
 .pytest_cache/
 
-# Local data
+# Saved classifications (local data)
 data/
-*.db
+
+# Model downloads and the fine-tuned model (~250 MB; rebuild with `make train`)
+.cache/
+model/
+checkpoints/

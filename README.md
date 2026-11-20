@@ -14,7 +14,7 @@ This project creates a Customer Feedback Analyzer for retail managers. It uses a
 
 Tick these off as you go, and commit after each one.
 
-- [ ] **1. Define 3-5 feedback categories and create a small dataset of example comments with labels.**  
+- [x] **1. Define 3-5 feedback categories and create a small dataset of example comments with labels.**  
       Hint: Dataset Creation: Define categories and create labeled examples for fine-tuning.
 - [ ] **2. Extend GPT-2 tokenizer and model with new category tokens.**  
       Hint: Tokenizer/Model Extension: Extend the GPT-2 tokenizer and model with new category tokens.
