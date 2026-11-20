@@ -194,7 +194,7 @@
       }
     },
     "fine_tuned_details": {
-      "ms_per_comment_cpu": 22.4,
+      "ms_per_comment_cpu": 13.6,
       "generates_a_category_token": 1.0,
       "mean_confidence_when_right": 0.8945,
       "mean_confidence_when_wrong": 0.7482
@@ -395,7 +395,7 @@
       }
     },
     "fine_tuned_details": {
-      "ms_per_comment_cpu": 10.9,
+      "ms_per_comment_cpu": 16.4,
       "generates_a_category_token": 1.0,
       "mean_confidence_when_right": 0.8957,
       "mean_confidence_when_wrong": 0.686

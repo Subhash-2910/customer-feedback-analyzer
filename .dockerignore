@@ -1,0 +1,9 @@
+.venv
+.cache
+model
+checkpoints
+data
+.git
+__pycache__
+.pytest_cache
+.env

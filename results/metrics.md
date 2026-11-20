@@ -13,7 +13,7 @@ Produced by `python -m app.evaluate`. Accuracy / macro-F1 on comments never seen
 
 - generates a category token without any restriction: 100%
 - mean confidence when right: 0.8945, when wrong: 0.7482
-- speed: 22.4 ms per comment on CPU (batched)
+- speed: 13.6 ms per comment on CPU (batched)
 
 Per-category F1: product_issue 0.91, staff_praise 0.91, staff_complaint 0.89, pricing 1.00, store_experience 0.89
 
@@ -29,7 +29,7 @@ Per-category F1: product_issue 0.91, staff_praise 0.91, staff_complaint 0.89, pr
 
 - generates a category token without any restriction: 100%
 - mean confidence when right: 0.8957, when wrong: 0.686
-- speed: 10.9 ms per comment on CPU (batched)
+- speed: 16.4 ms per comment on CPU (batched)
 
 Per-category F1: product_issue 0.89, staff_praise 0.86, staff_complaint 0.86, pricing 0.89, store_experience 0.75
 
