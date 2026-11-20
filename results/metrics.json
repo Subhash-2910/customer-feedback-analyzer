@@ -1,0 +1,404 @@
+{
+  "held-out": {
+    "n": 100,
+    "majority": {
+      "accuracy": 0.2,
+      "macro_f1": 0.0667,
+      "per_class_f1": {
+        "product_issue": 0.3333,
+        "staff_praise": 0.0,
+        "staff_complaint": 0.0,
+        "pricing": 0.0,
+        "store_experience": 0.0
+      },
+      "confusion": {
+        "product_issue": {
+          "product_issue": 20,
+          "staff_praise": 0,
+          "staff_complaint": 0,
+          "pricing": 0,
+          "store_experience": 0
+        },
+        "staff_praise": {
+          "product_issue": 20,
+          "staff_praise": 0,
+          "staff_complaint": 0,
+          "pricing": 0,
+          "store_experience": 0
+        },
+        "staff_complaint": {
+          "product_issue": 20,
+          "staff_praise": 0,
+          "staff_complaint": 0,
+          "pricing": 0,
+          "store_experience": 0
+        },
+        "pricing": {
+          "product_issue": 20,
+          "staff_praise": 0,
+          "staff_complaint": 0,
+          "pricing": 0,
+          "store_experience": 0
+        },
+        "store_experience": {
+          "product_issue": 20,
+          "staff_praise": 0,
+          "staff_complaint": 0,
+          "pricing": 0,
+          "store_experience": 0
+        }
+      }
+    },
+    "keyword": {
+      "accuracy": 0.69,
+      "macro_f1": 0.7193,
+      "per_class_f1": {
+        "product_issue": 0.5634,
+        "staff_praise": 0.75,
+        "staff_complaint": 0.7097,
+        "pricing": 0.8235,
+        "store_experience": 0.75
+      },
+      "confusion": {
+        "product_issue": {
+          "product_issue": 20,
+          "staff_praise": 0,
+          "staff_complaint": 0,
+          "pricing": 0,
+          "store_experience": 0
+        },
+        "staff_praise": {
+          "product_issue": 8,
+          "staff_praise": 12,
+          "staff_complaint": 0,
+          "pricing": 0,
+          "store_experience": 0
+        },
+        "staff_complaint": {
+          "product_issue": 9,
+          "staff_praise": 0,
+          "staff_complaint": 11,
+          "pricing": 0,
+          "store_experience": 0
+        },
+        "pricing": {
+          "product_issue": 6,
+          "staff_praise": 0,
+          "staff_complaint": 0,
+          "pricing": 14,
+          "store_experience": 0
+        },
+        "store_experience": {
+          "product_issue": 8,
+          "staff_praise": 0,
+          "staff_complaint": 0,
+          "pricing": 0,
+          "store_experience": 12
+        }
+      }
+    },
+    "zero_shot_gpt2": {
+      "accuracy": 0.19,
+      "macro_f1": 0.0877,
+      "per_class_f1": {
+        "product_issue": 0.1053,
+        "staff_praise": 0.0,
+        "staff_complaint": 0.0,
+        "pricing": 0.0,
+        "store_experience": 0.3333
+      },
+      "confusion": {
+        "product_issue": {
+          "product_issue": 2,
+          "staff_praise": 0,
+          "staff_complaint": 0,
+          "pricing": 0,
+          "store_experience": 18
+        },
+        "staff_praise": {
+          "product_issue": 0,
+          "staff_praise": 0,
+          "staff_complaint": 0,
+          "pricing": 0,
+          "store_experience": 20
+        },
+        "staff_complaint": {
+          "product_issue": 12,
+          "staff_praise": 0,
+          "staff_complaint": 0,
+          "pricing": 0,
+          "store_experience": 8
+        },
+        "pricing": {
+          "product_issue": 1,
+          "staff_praise": 0,
+          "staff_complaint": 0,
+          "pricing": 0,
+          "store_experience": 19
+        },
+        "store_experience": {
+          "product_issue": 3,
+          "staff_praise": 0,
+          "staff_complaint": 0,
+          "pricing": 0,
+          "store_experience": 17
+        }
+      }
+    },
+    "fine_tuned_gpt2": {
+      "accuracy": 0.92,
+      "macro_f1": 0.9192,
+      "per_class_f1": {
+        "product_issue": 0.9091,
+        "staff_praise": 0.9091,
+        "staff_complaint": 0.8889,
+        "pricing": 1.0,
+        "store_experience": 0.8889
+      },
+      "confusion": {
+        "product_issue": {
+          "product_issue": 20,
+          "staff_praise": 0,
+          "staff_complaint": 0,
+          "pricing": 0,
+          "store_experience": 0
+        },
+        "staff_praise": {
+          "product_issue": 0,
+          "staff_praise": 20,
+          "staff_complaint": 0,
+          "pricing": 0,
+          "store_experience": 0
+        },
+        "staff_complaint": {
+          "product_issue": 0,
+          "staff_praise": 4,
+          "staff_complaint": 16,
+          "pricing": 0,
+          "store_experience": 0
+        },
+        "pricing": {
+          "product_issue": 0,
+          "staff_praise": 0,
+          "staff_complaint": 0,
+          "pricing": 20,
+          "store_experience": 0
+        },
+        "store_experience": {
+          "product_issue": 4,
+          "staff_praise": 0,
+          "staff_complaint": 0,
+          "pricing": 0,
+          "store_experience": 16
+        }
+      }
+    },
+    "fine_tuned_details": {
+      "ms_per_comment_cpu": 22.4,
+      "generates_a_category_token": 1.0,
+      "mean_confidence_when_right": 0.8945,
+      "mean_confidence_when_wrong": 0.7482
+    }
+  },
+  "hand-written": {
+    "n": 20,
+    "majority": {
+      "accuracy": 0.2,
+      "macro_f1": 0.0667,
+      "per_class_f1": {
+        "product_issue": 0.3333,
+        "staff_praise": 0.0,
+        "staff_complaint": 0.0,
+        "pricing": 0.0,
+        "store_experience": 0.0
+      },
+      "confusion": {
+        "product_issue": {
+          "product_issue": 4,
+          "staff_praise": 0,
+          "staff_complaint": 0,
+          "pricing": 0,
+          "store_experience": 0
+        },
+        "staff_praise": {
+          "product_issue": 4,
+          "staff_praise": 0,
+          "staff_complaint": 0,
+          "pricing": 0,
+          "store_experience": 0
+        },
+        "staff_complaint": {
+          "product_issue": 3,
+          "staff_praise": 0,
+          "staff_complaint": 0,
+          "pricing": 0,
+          "store_experience": 0
+        },
+        "pricing": {
+          "product_issue": 4,
+          "staff_praise": 0,
+          "staff_complaint": 0,
+          "pricing": 0,
+          "store_experience": 0
+        },
+        "store_experience": {
+          "product_issue": 5,
+          "staff_praise": 0,
+          "staff_complaint": 0,
+          "pricing": 0,
+          "store_experience": 0
+        }
+      }
+    },
+    "keyword": {
+      "accuracy": 0.6,
+      "macro_f1": 0.5292,
+      "per_class_f1": {
+        "product_issue": 0.5,
+        "staff_praise": 0.4,
+        "staff_complaint": 0.0,
+        "pricing": 0.8571,
+        "store_experience": 0.8889
+      },
+      "confusion": {
+        "product_issue": {
+          "product_issue": 4,
+          "staff_praise": 0,
+          "staff_complaint": 0,
+          "pricing": 0,
+          "store_experience": 0
+        },
+        "staff_praise": {
+          "product_issue": 3,
+          "staff_praise": 1,
+          "staff_complaint": 0,
+          "pricing": 0,
+          "store_experience": 0
+        },
+        "staff_complaint": {
+          "product_issue": 3,
+          "staff_praise": 0,
+          "staff_complaint": 0,
+          "pricing": 0,
+          "store_experience": 0
+        },
+        "pricing": {
+          "product_issue": 1,
+          "staff_praise": 0,
+          "staff_complaint": 0,
+          "pricing": 3,
+          "store_experience": 0
+        },
+        "store_experience": {
+          "product_issue": 1,
+          "staff_praise": 0,
+          "staff_complaint": 0,
+          "pricing": 0,
+          "store_experience": 4
+        }
+      }
+    },
+    "zero_shot_gpt2": {
+      "accuracy": 0.2,
+      "macro_f1": 0.0762,
+      "per_class_f1": {
+        "product_issue": 0.0,
+        "staff_praise": 0.0,
+        "staff_complaint": 0.0,
+        "pricing": 0.0,
+        "store_experience": 0.381
+      },
+      "confusion": {
+        "product_issue": {
+          "product_issue": 0,
+          "staff_praise": 0,
+          "staff_complaint": 0,
+          "pricing": 0,
+          "store_experience": 4
+        },
+        "staff_praise": {
+          "product_issue": 1,
+          "staff_praise": 0,
+          "staff_complaint": 0,
+          "pricing": 0,
+          "store_experience": 3
+        },
+        "staff_complaint": {
+          "product_issue": 2,
+          "staff_praise": 0,
+          "staff_complaint": 0,
+          "pricing": 0,
+          "store_experience": 1
+        },
+        "pricing": {
+          "product_issue": 0,
+          "staff_praise": 0,
+          "staff_complaint": 0,
+          "pricing": 0,
+          "store_experience": 4
+        },
+        "store_experience": {
+          "product_issue": 1,
+          "staff_praise": 0,
+          "staff_complaint": 0,
+          "pricing": 0,
+          "store_experience": 4
+        }
+      }
+    },
+    "fine_tuned_gpt2": {
+      "accuracy": 0.85,
+      "macro_f1": 0.8484,
+      "per_class_f1": {
+        "product_issue": 0.8889,
+        "staff_praise": 0.8571,
+        "staff_complaint": 0.8571,
+        "pricing": 0.8889,
+        "store_experience": 0.75
+      },
+      "confusion": {
+        "product_issue": {
+          "product_issue": 4,
+          "staff_praise": 0,
+          "staff_complaint": 0,
+          "pricing": 0,
+          "store_experience": 0
+        },
+        "staff_praise": {
+          "product_issue": 0,
+          "staff_praise": 3,
+          "staff_complaint": 1,
+          "pricing": 0,
+          "store_experience": 0
+        },
+        "staff_complaint": {
+          "product_issue": 0,
+          "staff_praise": 0,
+          "staff_complaint": 3,
+          "pricing": 0,
+          "store_experience": 0
+        },
+        "pricing": {
+          "product_issue": 0,
+          "staff_praise": 0,
+          "staff_complaint": 0,
+          "pricing": 4,
+          "store_experience": 0
+        },
+        "store_experience": {
+          "product_issue": 1,
+          "staff_praise": 0,
+          "staff_complaint": 0,
+          "pricing": 1,
+          "store_experience": 3
+        }
+      }
+    },
+    "fine_tuned_details": {
+      "ms_per_comment_cpu": 10.9,
+      "generates_a_category_token": 1.0,
+      "mean_confidence_when_right": 0.8957,
+      "mean_confidence_when_wrong": 0.686
+    }
+  }
+}
