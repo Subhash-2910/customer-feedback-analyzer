@@ -18,7 +18,7 @@ Tick these off as you go, and commit after each one.
       Hint: Dataset Creation: Define categories and create labeled examples for fine-tuning.
 - [x] **2. Extend GPT-2 tokenizer and model with new category tokens.**  
       Hint: Tokenizer/Model Extension: Extend the GPT-2 tokenizer and model with new category tokens.
-- [ ] **3. Fine-tune the model using the Hugging Face Trainer.**  
+- [x] **3. Fine-tune the model using the Hugging Face Trainer.**  
       Hint: Fine-tuning: Use the Hugging Face Trainer to fine-tune the GPT-2 model.
 - [ ] **4. Implement an inference function to classify new feedback.**  
       Hint: Inference Pipeline: Implement the classification logic for new feedback comments.

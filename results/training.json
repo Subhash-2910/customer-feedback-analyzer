@@ -1,0 +1,45 @@
+{
+  "base_model": "gpt2",
+  "epochs": 4,
+  "learning_rate": 5e-05,
+  "batch_size": 16,
+  "train_size": 270,
+  "val_size": 30,
+  "seconds": 27.2,
+  "device": "mps",
+  "trainable_parameters": 124443648,
+  "history": [
+    {
+      "loss": 3.6622,
+      "epoch": 1.0
+    },
+    {
+      "eval_loss": 0.9553,
+      "epoch": 1.0
+    },
+    {
+      "loss": 0.5953,
+      "epoch": 2.0
+    },
+    {
+      "eval_loss": 0.2214,
+      "epoch": 2.0
+    },
+    {
+      "loss": 0.1807,
+      "epoch": 3.0
+    },
+    {
+      "eval_loss": 0.0753,
+      "epoch": 3.0
+    },
+    {
+      "loss": 0.081,
+      "epoch": 4.0
+    },
+    {
+      "eval_loss": 0.0486,
+      "epoch": 4.0
+    }
+  ]
+}
